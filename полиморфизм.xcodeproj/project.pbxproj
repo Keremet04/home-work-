@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C086CE7E2906DC4F00857183 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086CE7D2906DC4F00857183 /* main.swift */; };
+		C086CE852906DCAD00857183 /* house.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086CE842906DCAD00857183 /* house.swift */; };
+		C086CE872906DCC300857183 /* flat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086CE862906DCC300857183 /* flat.swift */; };
+		C086CE892906DCCF00857183 /* stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086CE882906DCCF00857183 /* stock.swift */; };
+		C086CE8B2906E92400857183 /* garage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C086CE8A2906E92400857183 /* garage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		C086CE7A2906DC4F00857183 /* полиморфизм */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "полиморфизм"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C086CE7D2906DC4F00857183 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C086CE842906DCAD00857183 /* house.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = house.swift; sourceTree = "<group>"; };
+		C086CE862906DCC300857183 /* flat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flat.swift; sourceTree = "<group>"; };
+		C086CE882906DCCF00857183 /* stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stock.swift; sourceTree = "<group>"; };
+		C086CE8A2906E92400857183 /* garage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = garage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				C086CE7D2906DC4F00857183 /* main.swift */,
+				C086CE8A2906E92400857183 /* garage.swift */,
+				C086CE882906DCCF00857183 /* stock.swift */,
+				C086CE862906DCC300857183 /* flat.swift */,
+				C086CE842906DCAD00857183 /* house.swift */,
 			);
 			path = "полиморфизм";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C086CE892906DCCF00857183 /* stock.swift in Sources */,
 				C086CE7E2906DC4F00857183 /* main.swift in Sources */,
+				C086CE872906DCC300857183 /* flat.swift in Sources */,
+				C086CE852906DCAD00857183 /* house.swift in Sources */,
+				C086CE8B2906E92400857183 /* garage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
